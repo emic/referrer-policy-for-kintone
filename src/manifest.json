@@ -1,0 +1,28 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": { 
+        "ja": "Referrer-Policy for kintone",
+        "en": "Referrer-Policy for kintone"
+    },
+    "description": { 
+        "ja": "リファラー情報の外部への送信を極力抑制するリファラーポリシーを設定します。",
+        "en": "This plugin sets referrer policies to prevent sending referrer if possible."
+    },
+    "icon": "icon.png",
+    "homepage_url": { 
+        "ja": "https://www.emic.co.jp/kintone/",
+        "en": "https://www.emic.co.jp/kintone/"
+    },
+    "desktop": {
+        "js": [
+            "js/referrer-policy-for-kintone.js"
+        ]
+    },
+    "mobile": {
+        "js": [
+            "js/referrer-policy-for-kintone.js"
+        ]
+    }
+}
