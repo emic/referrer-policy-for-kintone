@@ -1,0 +1,1 @@
+# referrer-policy-for-kintone
