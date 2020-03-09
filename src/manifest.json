@@ -1,6 +1,6 @@
 {
     "manifest_version": 1,
-    "version": 1,
+    "version": 2,
     "type": "APP",
     "name": { 
         "ja": "Referrer-Policy for kintone",
@@ -17,12 +17,12 @@
     },
     "desktop": {
         "js": [
-            "js/referrer-policy-for-kintone.js"
+            "js/referrer-policy-for-kintone.min.js"
         ]
     },
     "mobile": {
         "js": [
-            "js/referrer-policy-for-kintone.js"
+            "js/referrer-policy-for-kintone.min.js"
         ]
     }
 }

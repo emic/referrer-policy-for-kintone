@@ -1,0 +1,19 @@
+{
+  "name": "referrer-policy-for-kintone",
+  "version": "2.0.0",
+  "scripts": {
+    "start": "node scripts/npm-start.js",
+    "upload": "kintone-plugin-uploader dist/referrer-policy-for-kintone-v2.0.zip --watch --waiting-dialog-ms 3000",
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "@kintone/plugin-packer": "^2.0.8",
+    "@kintone/webpack-plugin-kintone-plugin": "^4.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-kintone": "^2.0.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
