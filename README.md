@@ -14,11 +14,12 @@
 
 ## 詳細
 
-* 本プラグインを有効にすると、リファラーポリシーとして「same-origin」を指定した場合の挙動となるようにkintoneを調整します。Referrer-Policy for kintoneでは、レコード一覧画面、レコード詳細画面、レコード追加画面、レコード編集画面、レコード印刷画面、グラフ画面を対象として、各画面の表示後にmeta要素（<meta name="referrer" content="same-origin">）を追加するようにしています。さらに、バージョン2.0では、外部サイトへのリンクのある各a要素のrel属性に「noreferrer」を設定するように調整して、Windows 10のInternet Explorer 11とMicrosoft Edgeにも対応しました。（target属性の値が「_blank」になっているa要素についてはrel属性に「noopener」も付加するようにしています）。詳細や経緯については下記の記事もご参照ください。
+* 本プラグインを有効にすると、リファラーポリシーとして「same-origin」を指定した場合の挙動となるようにkintoneを調整します。Referrer-Policy for kintoneでは、レコード一覧画面、レコード詳細画面、レコード追加画面、レコード編集画面、レコード印刷画面、グラフ画面を対象として、各画面の表示後にmeta要素（&lt;meta name="referrer" content="same-origin"&gt;）を追加するようにしています。さらに、バージョン2.0では、外部サイトへのリンクのある各a要素のrel属性に「noreferrer」を設定するように調整して、Windows 10のInternet Explorer 11とMicrosoft Edgeにも対応しました。（target属性の値が「_blank」になっているa要素についてはrel属性に「noopener」も付加するようにしています）。詳細や経緯については下記の記事もご参照ください。
 
 - Referrer-Policy for kintoneというプラグインを作成しました <https://note.com/matsuo_atsushi/n/ne66c53b03046>
 - Referrer-Policy for kintoneのインストール方法 <https://note.com/matsuo_atsushi/n/n65f69d7ef0b8>
 - Referrer-Policy for kintone 1.2でスマートフォンに対応しました <https://note.com/matsuo_atsushi/n/n6f0bb14874e6>
+- Referrer-Policy for kintone 2.0でInternet Explorer 11とMicrosoft Edgeに対応しました <https://note.com/matsuo_atsushi/n/ndffe52ceb7ba>
 
 ## 注意点
 
