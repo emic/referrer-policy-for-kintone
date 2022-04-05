@@ -2,7 +2,7 @@
 
 ## 概要
 
-* リファラー情報の外部への送信を極力抑制するリファラーポリシーを設定する、kintone用のプラグインです。
+* リファラー情報の外部への送信を極力抑制するリファラーポリシーを設定する、kintone用のプラグインです。2021年11月にcybozu.comでReferrer-Policyの設定を変更できるように仕様が変更されたため、2022年4月に本プラグインの保守を終了しました。
 
 ## 使い方
 
@@ -20,6 +20,7 @@
 - Referrer-Policy for kintoneのインストール方法 <https://note.com/matsuo_atsushi/n/n65f69d7ef0b8>
 - Referrer-Policy for kintone 1.2でスマートフォンに対応しました <https://note.com/matsuo_atsushi/n/n6f0bb14874e6>
 - Referrer-Policy for kintone 2.0でInternet Explorer 11とMicrosoft Edgeに対応しました <https://note.com/matsuo_atsushi/n/ndffe52ceb7ba>
+- kintoneでReferrer-Policyの設定を確認および変更する方法 <https://note.com/matsuo_atsushi/n/n07b426bf520e>
 
 ## 注意点
 
